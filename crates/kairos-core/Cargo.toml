@@ -1,0 +1,13 @@
+[package]
+name = "kairos-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Core date engine, event scheduling, recurrence models, and calendar calculations for Kairos"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]

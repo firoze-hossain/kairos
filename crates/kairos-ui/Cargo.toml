@@ -1,0 +1,14 @@
+[package]
+name = "kairos-ui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Sovereign 2D GUI canvas and multi-view calendar layout engine synthesizing macOS and Ubuntu"
+
+[features]
+default = ["std"]
+std = ["kairos-core/std"]
+
+[dependencies]
+kairos-core = { path = "../kairos-core", default-features = false }

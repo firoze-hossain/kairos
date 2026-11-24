@@ -1,0 +1,10 @@
+[package]
+name = "kairos-platform"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Cross-platform hardware RTC, system clock, and storage adapters for Linux, macOS, Windows and NovaOS"
+
+[dependencies]
+kairos-core = { path = "../kairos-core" }

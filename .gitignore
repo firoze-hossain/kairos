@@ -1,0 +1,4 @@
+target/
+**/*.rs.bk
+novaos/*.o
+novaos/*.elf

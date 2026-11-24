@@ -1,0 +1,16 @@
+[package]
+name = "kairos-app"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Kairos Sovereign Calendar & Event Scheduling Suite (macOS + Ubuntu Synthesized)"
+
+[[bin]]
+name = "kairos"
+path = "src/main.rs"
+
+[dependencies]
+kairos-core = { path = "../kairos-core" }
+kairos-ui = { path = "../kairos-ui" }
+kairos-platform = { path = "../kairos-platform" }
